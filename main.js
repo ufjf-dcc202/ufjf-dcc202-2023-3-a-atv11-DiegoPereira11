@@ -14,6 +14,6 @@ function atualizarItensDeLista(){
         const item = lista[i];
         const li = document.createElement('li');
         li.textContent = item;
-        document.body.appendChild(li);
+        olSaida.body.appendChild(li);
     }
 }
