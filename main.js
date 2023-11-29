@@ -16,6 +16,8 @@ function criaElementoNaLista(){
     const texto = pEntrada.textContent;
     adicionarNaLista(texto);
     atualizarItensDeLista();
+    pEntrada.textContent="";
+    pEntrada.focus();
 }
 
 function limparElementoDalista(){
